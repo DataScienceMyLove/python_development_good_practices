@@ -70,12 +70,12 @@ FONTS = [
 ]
 
 
-def random_font():
+def random_font() -> str:
    """Returns a random pyfiglet font."""
    return random.choice(FONTS)
 
 
-def validate_args(args):
+def validate_args(args: list) -> bool:
    """Validates the arguments passed from the command-line."""
    if len(args) > 1:
       return True
