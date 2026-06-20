@@ -10,7 +10,7 @@ The purpose of the app is just printing a text in ASCII art from the user.
 
 A little overview to have some landmarks on the covered concepts:
 - [Why readability is important?](notes/readability.md)
-- Writing Pythonic code
+- [Writing Pythonic code](pythonic_code/writing_pythonic_code.md)
 - Linting and formatting with Flake8 and Black
 - Virtual environments
 - Automation tools like pre-commit hooks and testing with git
