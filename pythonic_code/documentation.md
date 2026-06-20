@@ -69,3 +69,5 @@ Outputs:
 ```
 **Note**: The `help()` builtin function is tied with __doc__, it uses it in a manual page with a better presentation without escape characters.
 **Note**: A __pycache__ folder appears when you import a .py module file. It contains precompiled files in bytecode for the interpreter. There is none interest to keep it in your repository...
+
+**Another example of good practices with documentation to the repo/project level is: build [a well-documented README.md](/notes/why_a_README.md)
