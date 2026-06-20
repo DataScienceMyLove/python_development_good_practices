@@ -61,3 +61,6 @@ By default, without any configuration, your project provides you with two ready-
 - **Swagger UI** (accessible via the URL `/docs`): Allows you to test the API directly from your browser.
 
 - **ReDoc** (accessible via the URL `/redoc`): Crystal-clear, production-ready documentation.
+
+
+**Another way to keep a project/software in a healthy state is: [Testing](/notes/testing.md)**
