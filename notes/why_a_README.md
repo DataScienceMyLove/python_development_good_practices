@@ -62,5 +62,7 @@ By default, without any configuration, your project provides you with two ready-
 
 - **ReDoc** (accessible via the URL `/redoc`): Crystal-clear, production-ready documentation.
 
+**Note for the course**: you will see the evolution of a README.md through the versions of our app beginning to [v1 branch](https://github.com/DataScienceMyLove/python_development_good_practices/tree/v1)
+
 
 **Another way to keep a project/software in a healthy state is: [Testing](/notes/testing.md)**
