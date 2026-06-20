@@ -4,9 +4,11 @@
 
 Readable, clean, organized code is very important when you're beginning projects and when you're collaborating in a team.
 
-A little overview of this repo which will be organized by branch. For each new branch you will get a new version of the basic app to finish with a Pythonic, linted, formatted, containerized with a bunch of good practices of development that can help you to facilitate things when something breaks.
+A little overview of this repo which will be organized by branch. For each new branch you will get a new version of the basic app to finish with a Pythonic, linted, formatted, containerized app with a bunch of good practices of development that can help you to facilitate things when something breaks.
 
 The purpose of the app is just printing a text in ASCII art from the user.
+
+### Overview of the covered topics
 
 A little overview to have some landmarks on the covered concepts:
 - [Why readability is important?](notes/readability.md)
@@ -15,6 +17,8 @@ A little overview to have some landmarks on the covered concepts:
 - Virtual environments
 - Automation tools like pre-commit hooks and testing with git
 - Packaging/Containerizing your app
+
+Feel free to retrieve all this subjects in the `notes/` folder
 
 #### ***Who is this repository for?***
 
@@ -38,6 +42,25 @@ Branch | Description
 
 ***Browse the branches to see changes of the app according to the incorporation of tools and concepts of good practices development***
 
+### How to use it in local
+
+**Clone the repo in the directory of your choice:**
+```bash
+git clone  https://github.com/DataScienceMyLove/python_development_good_practices
+```
+**Enter in the git repository:**
+```bash
+cd python_development_good_practices
+```
+**List all branches:**
+```bash
+git branch -a
+```
+**Go on the version of the app you want to explore:**
+```bash
+git checkout v1
+```
+It will create the branch which doesn't exist still.
 
 
 
