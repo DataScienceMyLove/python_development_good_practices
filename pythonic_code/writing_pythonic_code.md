@@ -134,3 +134,6 @@ MyPy helps catch bugs before they make it into production. For example, if you a
 - We could integrate it into CI/CD pipelines or into a pre-commit hook
 
 So we can catch these potential type mismatches before we deploy our code.
+
+
+Another concept/good practice about Pythonic code is [documentation](/pythonic_code/documentation.md)
