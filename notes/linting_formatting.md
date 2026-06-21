@@ -19,4 +19,4 @@ Linters like Flake8 are highly configurable.(so we will have some words about th
 
 **Black** is the most widely used formatting tool.
 
-We consider a lot these 2 concepts in v3 of the improvement of the app.
+We consider a lot these 2 concepts in [v3](https://github.com/DataScienceMyLove/python_development_good_practices/tree/v3) of the improvement of the app.
