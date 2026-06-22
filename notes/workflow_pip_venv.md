@@ -79,3 +79,4 @@ deactivate
     - you can delete your venv to avoid accumulating venv on your machine: dependencies can be heavy: it's practical, all in the same folder.
 
 
+**Transition:** In [V5](https://github.com/DataScienceMyLove/python_development_good_practices/tree/v5), we're going to use a more powerful & centralized tool which allow to tie environment management & dependency management in one place.
