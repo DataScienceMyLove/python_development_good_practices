@@ -55,6 +55,7 @@ uv add pyfiglet
 - It adds the package to pyproject.toml
 - It updates or creates a uv.lock
 - It creates a .python-version which sets the python interpreter version for this project(Poetry doesn't have this)
+- It creates a main.py by default as entrypoint of the project
 
 **Modify manually the pyproject.toml**
 
@@ -79,7 +80,7 @@ uv sync
 **Result:**
 - It installs new synchronized packages
 
-4) **Remove packages in our poetry environment**:
+1) **Remove packages in our poetry environment**:
 
 **Remove packages by CLI**:
 
