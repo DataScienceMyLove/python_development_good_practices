@@ -242,6 +242,17 @@ Uv is enough smart to find the Python of your environment with a simple .py file
 ><   ><<><         ><< ><< ><<  ><< 
 ><<  ><<  ><<<<   ><<<><<<   ><<   
 ```
+### Clean the environment:
+
+Once it's finished, you maybe want to clean up your repo from the directory because it's heavy and you have all the elements to recreate it (.lock, python-version,.toml):
+```
+rm -rf .venv
+```
+or add to your gitignore:
+```
+.venv/
+```
+
 **transition**:
 
 Now we know that we can count on 2 dependency management tools for production, we're going to interest about some automation tools in [v6](https://github.com/DataScienceMyLove/python_development_good_practices/tree/v6) that we can add to our app workflow
