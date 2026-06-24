@@ -230,7 +230,7 @@ With Poetry you can set different groups for installed packages in .toml file:
 
 Dependencies management is what to transform personal projects to production projects.
 
-### Rua apps in a poetry environment
+### Run apps in a poetry environment
 
 Place you in your working directory and run:
 
