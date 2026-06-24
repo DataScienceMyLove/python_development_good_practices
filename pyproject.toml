@@ -1,20 +1,19 @@
-[tool.poetry]
-name = "sign-printer"
+[project]
+name = "python-development-good-practices"
 version = "0.1.0"
-description = "Sign printer app"
-authors = ["Lee Gaines <lee.gaines@autodesk.com>"]
+description = "Add your description here"
 readme = "README.md"
-packages = [{include = "sign_printer"}]
+requires-python = ">=3.13"
+dependencies = [
+    "pyfiglet>=1.0.4",
+]
 
-[tool.poetry.dependencies]
-python = "^3.9"
-pytest = "^7.2.1"
-flake8 = "^6.0.0"
-black = "^23.1.0"
-pyfiglet = "^0.8.post1"
-pre-commit = "^3.1.0"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+[dependency-groups]
+dev = [
+    "black>=26.5.1",
+    "flake8>=7.3.0",
+    "pre-commit>=4.6.0",
+]
+test = [
+    "pytest>=9.1.1",
+]
