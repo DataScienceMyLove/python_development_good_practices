@@ -21,17 +21,22 @@ poetry init
 
 ### Install dependencies
 ```
-poetry install
+poetry install # install dependencies, doesn't remove packages from environment
+poetry sync # sync the environment strictly with .lock
+```
+### Synchronize pyproject.toml and poetry.lock
+```
+poetry lock
 ```
 
 ### Activate virtual environment
 ```
-poetry shell
+eval $(poetry env activate)
 ```
 
 ### Deactivate virtual environment
 ```
-exit
+deactivate
 ```
 
 ### Run the app
@@ -43,7 +48,10 @@ poetry run python sign_printer/sign_printer.py <text>
 ```
 poetry add pyfiglet
 ```
-
+### Remove a package 
+```
+poetry remove pyfiglet
+```
 ### Uninstall
 ```
 # pip
@@ -55,3 +63,4 @@ brew uninstall poetry
 # Linux / Windows
 curl -sSL https://install.python-poetry.org | python3 - --uninstall
 ```
+Note: if you want the complete workflow to create a project with dependencies management with [poetry](/notes/workflow_with_poetry.md) or [uv](/notes/workflow_with_uv.md), follow the instructions.
