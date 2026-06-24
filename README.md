@@ -3,19 +3,19 @@
 This is a simple Python command-line application that uses the `pyfiglet` library to generate ASCII art from the text entered by the user.
 
 ## Prerequisites
-To run this application, you need to have Python 3.x and `poetry` installed on your system.
+To run this application, you need to have Python 3.13 and `uv` installed on your system.
 
-You can install `poetry` by running the following command in your terminal:
+You can install `uv` by running the following command in your terminal:
 
 ```
-python -m pip install poetry
+python -m pip install uv
 ```
 
 ## Usage
 Run the following command in your terminal:
 
 ```
-poetry install
+uv lock
 make example
 ```
 
