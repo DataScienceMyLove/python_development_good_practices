@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-Module sign_printer contains the sign_printer app.
+Module sign_printer contains the sign_printer app
+which prints signs in ASCII art.
 """
 
 import sys
