@@ -1,6 +1,7 @@
 """
 utils contains utilities for the sign_printer app.
 """
+
 import random
 
 USAGE = "Usage: python sign_printer <text>"
