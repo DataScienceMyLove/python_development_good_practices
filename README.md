@@ -15,13 +15,13 @@ python -m pip install uv
 Run the following command in your terminal:
 
 ```
-uv lock
+uv sync
 make example
 ```
 
 To print custom text, run
 ```
-poetry run python sign_printer/sign_printer.py <text>
+uv run python sign_printer/sign_printer.py <text>
 ```
 Replace `<text>` with the text for which you want to print.
 
@@ -54,5 +54,5 @@ make format
 
 To enable the pre-commit hook, run the following command:
 ```
-poetry run pre-commit install
+uv run pre-commit install
 ```
