@@ -1,7 +1,7 @@
 """
 test_utils contains unit tests for the sign_printer utilities.
 """
-import pytest
+
 from sign_printer.utils import FONTS, random_font, validate_args
 
 
