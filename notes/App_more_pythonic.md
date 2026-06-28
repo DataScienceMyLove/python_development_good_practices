@@ -118,3 +118,9 @@ if __name__ == "__main__":
   - I’ve added type hints (e.g. text: str -> str). 
   - This isn’t mandatory in Python, but it’s an excellent modern practice that helps your IDE detect bugs even before you run the code.
   - You can run Type Hinting with MyPy & you'll think to code with a static type language like TypeScript
+
+- **Formatting**: Style seems to be great:
+  - no spaces for equals with `parameters=args`
+  - newlines between functions
+  - 2 lines between imports and functions
+  
