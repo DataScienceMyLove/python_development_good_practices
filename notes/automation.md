@@ -551,3 +551,11 @@ Opening on :
   - git commit = gc
   - git status = gs
 It's very long to write this each time.
+
+#### Transition
+
+To run softwares more securely, more portable way, with all our stuff within a container without fearing to retrieve an environment which is broken Monday morning.
+
+The continuation of local automation to global automation assuring the reproductibility of our environment anywhere we can access a machine (local or remote).
+
+That's the last milestone of an optimized app: [Containerization](https://github.com/DataScienceMyLove/python_development_good_practices/tree/v7/)
